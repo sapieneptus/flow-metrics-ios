@@ -1,0 +1,6 @@
+framework module Pods_VSTS_Flow_MetricsUITests {
+  umbrella header "Pods-VSTS Flow MetricsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
