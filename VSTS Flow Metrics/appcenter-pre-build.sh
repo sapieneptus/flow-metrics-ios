@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
 set -ex
-echo "Running $(basename $0) script"
-echo $APP_SECRET > VSTS\ Flow\ Metrics/Secrets/app_secret.txt
+
+dir=$(dirname $0)
+scriptname=$(basename $0)
+echo "Running $scriptname script"
+echo $APP_SECRET > "${dir}/Secrets/app_secret.txt"
