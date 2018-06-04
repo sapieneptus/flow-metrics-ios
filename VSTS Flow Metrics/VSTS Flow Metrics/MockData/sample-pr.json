@@ -1,0 +1,1032 @@
+{
+  "lastMergeSourceCommit" : {
+    "commitId" : "a5fefa66dd556789de432d83b59d659e6f04be17",
+    "url" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/commits/a5fefa66dd556789de432d83b59d659e6f04be17"
+  },
+  "repository" : {
+    "id" : "bcd79acf-9383-4121-86d7-c5d443d9a72c",
+    "name" : "appcenter",
+    "url" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c",
+    "project" : {
+      "id" : "454a20a9-dfe6-4c1f-8ae8-417f76adb472",
+      "name" : "Mobile-Center",
+      "description" : "App Center: https://aka.ms/appcenter",
+      "url" : "https://msmobilecenter.visualstudio.com/_apis/projects/454a20a9-dfe6-4c1f-8ae8-417f76adb472",
+      "state" : "wellFormed",
+      "revision" : 820,
+      "visibility" : "organization"
+    },
+    "remoteUrl" : "https://msmobilecenter.visualstudio.com/Mobile-Center/_git/appcenter",
+    "sshUrl" : "ssh://msmobilecenter@vs-ssh.visualstudio.com:22/Mobile-Center/_ssh/appcenter"
+  },
+  "createdBy" : {
+    "displayName" : "Tomasz Kmiecik",
+    "url" : "https://app.vssps.visualstudio.com/Ab962ed4f-6670-4a37-ad24-8b9381530e67/_apis/Identities/19c36dea-f032-4a87-946c-2df750fa467d",
+    "_links" : {
+      "avatar" : {
+        "href" : "https://msmobilecenter.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.YzQ4ZjQ4MTktYjQ3MS03YWJhLTlmYjUtZGUzMWRhNjlkZmVh"
+      }
+    },
+    "id" : "19c36dea-f032-4a87-946c-2df750fa467d",
+    "uniqueName" : "tomaskmi@microsoft.com",
+    "imageUrl" : "https://msmobilecenter.visualstudio.com/_api/_common/identityImage?id=19c36dea-f032-4a87-946c-2df750fa467d",
+    "descriptor" : "aad.YzQ4ZjQ4MTktYjQ3MS03YWJhLTlmYjUtZGUzMWRhNjlkZmVh"
+  },
+  "completionOptions" : {
+    "mergeCommitMessage" : "Merged PR 13398: Fixing InvalidCastException in GDPR Test Controller\n\nRelated work items: #40357",
+    "deleteSourceBranch" : true,
+    "squashMerge" : true,
+    "bypassReason" : ""
+  },
+  "pullRequestId" : 13398,
+  "closedDate" : "2018-05-24T18:48:04.399Z",
+  "events" : [ {
+    "description" : "Better fix for InvalidCastException",
+    "updatedDate" : "2018-05-24T07:39:56.3052571Z",
+    "type" : "iteration",
+    "targetRefCommit" : {
+      "commitId" : "37ac875a98accf1249d172972cf7307706230c1f"
+    },
+    "author" : {
+      "displayName" : "Tomasz Kmiecik",
+      "url" : "https://app.vssps.visualstudio.com/Ab962ed4f-6670-4a37-ad24-8b9381530e67/_apis/Identities/19c36dea-f032-4a87-946c-2df750fa467d",
+      "_links" : {
+        "avatar" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.YzQ4ZjQ4MTktYjQ3MS03YWJhLTlmYjUtZGUzMWRhNjlkZmVh"
+        }
+      },
+      "id" : "19c36dea-f032-4a87-946c-2df750fa467d",
+      "uniqueName" : "tomaskmi@microsoft.com",
+      "imageUrl" : "https://msmobilecenter.visualstudio.com/_api/_common/identityImage?id=19c36dea-f032-4a87-946c-2df750fa467d",
+      "descriptor" : "aad.YzQ4ZjQ4MTktYjQ3MS03YWJhLTlmYjUtZGUzMWRhNjlkZmVh"
+    },
+    "reason" : "push",
+    "id" : 1,
+    "createdDate" : "2018-05-24T07:39:56.3052571Z",
+    "sourceRefCommit" : {
+      "commitId" : "40a8ec50ebd483810079634bb2f5987bd7badbcf"
+    },
+    "timestamp" : "2018-05-24T07:39:56.305Z",
+    "hasMoreCommits" : false,
+    "commonRefCommit" : {
+      "commitId" : "37ac875a98accf1249d172972cf7307706230c1f"
+    }
+  }, {
+    "properties" : {
+      "CodeReviewMergeCommit" : {
+        "$type" : "System.String",
+        "$value" : "c5b5d20d519ee76432d869036abf2484d7dc68dd"
+      },
+      "CodeReviewMergeStatus" : {
+        "$type" : "System.String",
+        "$value" : "Succeeded"
+      },
+      "CodeReviewSourceCommit" : {
+        "$type" : "System.String",
+        "$value" : "40a8ec50ebd483810079634bb2f5987bd7badbcf"
+      },
+      "CodeReviewTargetCommit" : {
+        "$type" : "System.String",
+        "$value" : "37ac875a98accf1249d172972cf7307706230c1f"
+      },
+      "CodeReviewThreadType" : {
+        "$type" : "System.String",
+        "$value" : "MergeAttempt"
+      }
+    },
+    "isDeleted" : false,
+    "pullRequestThreadContext" : null,
+    "comments" : [ {
+      "parentCommentId" : 0,
+      "content" : "The pull request is mergable and the target commit would be c5b5d20d519ee76432d869036abf2484d7dc68dd.",
+      "lastUpdatedDate" : "2018-05-24T07:39:57.257Z",
+      "commentType" : "system",
+      "publishedDate" : "2018-05-24T07:39:57.257Z",
+      "lastContentUpdatedDate" : "2018-05-24T07:39:57.257Z",
+      "author" : {
+        "displayName" : "Microsoft.VisualStudio.Services.TFS",
+        "url" : "https://app.vssps.visualstudio.com/Ab962ed4f-6670-4a37-ad24-8b9381530e67/_apis/Identities/00000002-0000-8888-8000-000000000000",
+        "_links" : {
+          "avatar" : {
+            "href" : "https://msmobilecenter.visualstudio.com/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+          }
+        },
+        "id" : "00000002-0000-8888-8000-000000000000",
+        "uniqueName" : "",
+        "imageUrl" : "https://msmobilecenter.visualstudio.com/_api/_common/identityImage?id=00000002-0000-8888-8000-000000000000",
+        "descriptor" : "s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+      },
+      "id" : 1,
+      "usersLiked" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128429/comments/1"
+        },
+        "repository" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c"
+        },
+        "threads" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128429"
+        }
+      }
+    } ],
+    "lastUpdatedDate" : "2018-05-24T07:39:57.257Z",
+    "type" : "thread",
+    "publishedDate" : "2018-05-24T07:39:57.257Z",
+    "threadContext" : null,
+    "id" : 128429,
+    "_links" : {
+      "self" : {
+        "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128429"
+      },
+      "repository" : {
+        "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c"
+      }
+    },
+    "timestamp" : "2018-05-24T07:39:57.257Z",
+    "identities" : null
+  }, {
+    "properties" : {
+      "CodeReviewThreadType" : {
+        "$type" : "System.String",
+        "$value" : "ReviewersUpdate"
+      },
+      "CodeReviewReviewersUpdatedAddedDisplayName" : {
+        "$type" : "System.String",
+        "$value" : "Tomasz Kmiecik"
+      },
+      "CodeReviewReviewersUpdatedAddedTfId" : {
+        "$type" : "System.String",
+        "$value" : "19c36dea-f032-4a87-946c-2df750fa467d"
+      },
+      "CodeReviewReviewersUpdatedByDisplayname" : {
+        "$type" : "System.String",
+        "$value" : "Tomasz Kmiecik"
+      },
+      "CodeReviewReviewersUpdatedByTfId" : {
+        "$type" : "System.String",
+        "$value" : "19c36dea-f032-4a87-946c-2df750fa467d"
+      },
+      "CodeReviewReviewersUpdatedNumAdded" : {
+        "$type" : "System.Int32",
+        "$value" : 1
+      },
+      "CodeReviewReviewersUpdatedNumRemoved" : {
+        "$type" : "System.Int32",
+        "$value" : 0
+      }
+    },
+    "isDeleted" : false,
+    "pullRequestThreadContext" : null,
+    "comments" : [ {
+      "parentCommentId" : 0,
+      "content" : "Tomasz Kmiecik joined as a reviewer",
+      "lastUpdatedDate" : "2018-05-24T07:40:01.27Z",
+      "commentType" : "system",
+      "publishedDate" : "2018-05-24T07:40:01.27Z",
+      "lastContentUpdatedDate" : "2018-05-24T07:40:01.27Z",
+      "author" : {
+        "displayName" : "Microsoft.VisualStudio.Services.TFS",
+        "url" : "https://app.vssps.visualstudio.com/Ab962ed4f-6670-4a37-ad24-8b9381530e67/_apis/Identities/00000002-0000-8888-8000-000000000000",
+        "_links" : {
+          "avatar" : {
+            "href" : "https://msmobilecenter.visualstudio.com/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+          }
+        },
+        "id" : "00000002-0000-8888-8000-000000000000",
+        "uniqueName" : "",
+        "imageUrl" : "https://msmobilecenter.visualstudio.com/_api/_common/identityImage?id=00000002-0000-8888-8000-000000000000",
+        "descriptor" : "s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+      },
+      "id" : 1,
+      "usersLiked" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128430/comments/1"
+        },
+        "repository" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c"
+        },
+        "threads" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128430"
+        }
+      }
+    } ],
+    "lastUpdatedDate" : "2018-05-24T07:40:01.27Z",
+    "type" : "thread",
+    "publishedDate" : "2018-05-24T07:40:01.27Z",
+    "threadContext" : null,
+    "id" : 128430,
+    "_links" : {
+      "self" : {
+        "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128430"
+      },
+      "repository" : {
+        "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c"
+      }
+    },
+    "timestamp" : "2018-05-24T07:40:01.270Z",
+    "identities" : null
+  }, {
+    "properties" : {
+      "CodeReviewThreadType" : {
+        "$type" : "System.String",
+        "$value" : "VoteUpdate"
+      },
+      "CodeReviewVotedByDisplayName" : {
+        "$type" : "System.String",
+        "$value" : "Tomasz Kmiecik"
+      },
+      "CodeReviewVotedByTfId" : {
+        "$type" : "System.String",
+        "$value" : "19c36dea-f032-4a87-946c-2df750fa467d"
+      },
+      "CodeReviewVoteResult" : {
+        "$type" : "System.String",
+        "$value" : "10"
+      },
+      "CodeReviewVotedByInitiatorDisplayName" : {
+        "$type" : "System.String",
+        "$value" : "Tomasz Kmiecik"
+      },
+      "CodeReviewVotedByInitiatorTfId" : {
+        "$type" : "System.String",
+        "$value" : "19c36dea-f032-4a87-946c-2df750fa467d"
+      }
+    },
+    "isDeleted" : false,
+    "pullRequestThreadContext" : null,
+    "comments" : [ {
+      "parentCommentId" : 0,
+      "content" : "Tomasz Kmiecik voted 10",
+      "lastUpdatedDate" : "2018-05-24T07:40:01.303Z",
+      "commentType" : "system",
+      "publishedDate" : "2018-05-24T07:40:01.303Z",
+      "lastContentUpdatedDate" : "2018-05-24T07:40:01.303Z",
+      "author" : {
+        "displayName" : "Tomasz Kmiecik",
+        "url" : "https://app.vssps.visualstudio.com/Ab962ed4f-6670-4a37-ad24-8b9381530e67/_apis/Identities/19c36dea-f032-4a87-946c-2df750fa467d",
+        "_links" : {
+          "avatar" : {
+            "href" : "https://msmobilecenter.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.YzQ4ZjQ4MTktYjQ3MS03YWJhLTlmYjUtZGUzMWRhNjlkZmVh"
+          }
+        },
+        "id" : "19c36dea-f032-4a87-946c-2df750fa467d",
+        "uniqueName" : "tomaskmi@microsoft.com",
+        "imageUrl" : "https://msmobilecenter.visualstudio.com/_api/_common/identityImage?id=19c36dea-f032-4a87-946c-2df750fa467d",
+        "descriptor" : "aad.YzQ4ZjQ4MTktYjQ3MS03YWJhLTlmYjUtZGUzMWRhNjlkZmVh"
+      },
+      "id" : 1,
+      "usersLiked" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128431/comments/1"
+        },
+        "repository" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c"
+        },
+        "threads" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128431"
+        }
+      }
+    } ],
+    "lastUpdatedDate" : "2018-05-24T07:40:01.303Z",
+    "type" : "thread",
+    "publishedDate" : "2018-05-24T07:40:01.303Z",
+    "threadContext" : null,
+    "id" : 128431,
+    "_links" : {
+      "self" : {
+        "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128431"
+      },
+      "repository" : {
+        "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c"
+      }
+    },
+    "timestamp" : "2018-05-24T07:40:01.303Z",
+    "identities" : null
+  }, {
+    "properties" : {
+      "CodeReviewThreadType" : {
+        "$type" : "System.String",
+        "$value" : "AutoCompleteUpdate"
+      },
+      "CodeReviewAutoCompleteNowSet" : {
+        "$type" : "System.String",
+        "$value" : "1"
+      },
+      "CodeReviewAutoCompleteUpdatedByDisplayName" : {
+        "$type" : "System.String",
+        "$value" : "Tomasz Kmiecik"
+      },
+      "CodeReviewAutoCompleteUpdatedByTfId" : {
+        "$type" : "System.String",
+        "$value" : "19c36dea-f032-4a87-946c-2df750fa467d"
+      }
+    },
+    "isDeleted" : false,
+    "pullRequestThreadContext" : null,
+    "comments" : [ {
+      "parentCommentId" : 0,
+      "content" : "Tomasz Kmiecik set auto-complete",
+      "lastUpdatedDate" : "2018-05-24T07:40:05.32Z",
+      "commentType" : "system",
+      "publishedDate" : "2018-05-24T07:40:05.32Z",
+      "lastContentUpdatedDate" : "2018-05-24T07:40:05.32Z",
+      "author" : {
+        "displayName" : "Microsoft.VisualStudio.Services.TFS",
+        "url" : "https://app.vssps.visualstudio.com/Ab962ed4f-6670-4a37-ad24-8b9381530e67/_apis/Identities/00000002-0000-8888-8000-000000000000",
+        "_links" : {
+          "avatar" : {
+            "href" : "https://msmobilecenter.visualstudio.com/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+          }
+        },
+        "id" : "00000002-0000-8888-8000-000000000000",
+        "uniqueName" : "",
+        "imageUrl" : "https://msmobilecenter.visualstudio.com/_api/_common/identityImage?id=00000002-0000-8888-8000-000000000000",
+        "descriptor" : "s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+      },
+      "id" : 1,
+      "usersLiked" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128432/comments/1"
+        },
+        "repository" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c"
+        },
+        "threads" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128432"
+        }
+      }
+    } ],
+    "lastUpdatedDate" : "2018-05-24T07:40:05.32Z",
+    "type" : "thread",
+    "publishedDate" : "2018-05-24T07:40:05.32Z",
+    "threadContext" : null,
+    "id" : 128432,
+    "_links" : {
+      "self" : {
+        "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128432"
+      },
+      "repository" : {
+        "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c"
+      }
+    },
+    "timestamp" : "2018-05-24T07:40:05.320Z",
+    "identities" : null
+  }, {
+    "properties" : {
+      "CodeReviewThreadType" : {
+        "$type" : "System.String",
+        "$value" : "ReviewersUpdate"
+      },
+      "CodeReviewReviewersUpdatedAddedDisplayName" : {
+        "$type" : "System.String",
+        "$value" : "Jon Stoneman"
+      },
+      "CodeReviewReviewersUpdatedAddedTfId" : {
+        "$type" : "System.String",
+        "$value" : "d8157a4d-1339-4773-8cb7-b38f52a12b4e"
+      },
+      "CodeReviewReviewersUpdatedByDisplayname" : {
+        "$type" : "System.String",
+        "$value" : "Jon Stoneman"
+      },
+      "CodeReviewReviewersUpdatedByTfId" : {
+        "$type" : "System.String",
+        "$value" : "d8157a4d-1339-4773-8cb7-b38f52a12b4e"
+      },
+      "CodeReviewReviewersUpdatedNumAdded" : {
+        "$type" : "System.Int32",
+        "$value" : 1
+      },
+      "CodeReviewReviewersUpdatedNumRemoved" : {
+        "$type" : "System.Int32",
+        "$value" : 0
+      }
+    },
+    "isDeleted" : false,
+    "pullRequestThreadContext" : null,
+    "comments" : [ {
+      "parentCommentId" : 0,
+      "content" : "Jon Stoneman joined as a reviewer",
+      "lastUpdatedDate" : "2018-05-24T07:43:42.087Z",
+      "commentType" : "system",
+      "publishedDate" : "2018-05-24T07:43:42.087Z",
+      "lastContentUpdatedDate" : "2018-05-24T07:43:42.087Z",
+      "author" : {
+        "displayName" : "Microsoft.VisualStudio.Services.TFS",
+        "url" : "https://app.vssps.visualstudio.com/Ab962ed4f-6670-4a37-ad24-8b9381530e67/_apis/Identities/00000002-0000-8888-8000-000000000000",
+        "_links" : {
+          "avatar" : {
+            "href" : "https://msmobilecenter.visualstudio.com/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+          }
+        },
+        "id" : "00000002-0000-8888-8000-000000000000",
+        "uniqueName" : "",
+        "imageUrl" : "https://msmobilecenter.visualstudio.com/_api/_common/identityImage?id=00000002-0000-8888-8000-000000000000",
+        "descriptor" : "s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+      },
+      "id" : 1,
+      "usersLiked" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128437/comments/1"
+        },
+        "repository" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c"
+        },
+        "threads" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128437"
+        }
+      }
+    } ],
+    "lastUpdatedDate" : "2018-05-24T07:43:42.087Z",
+    "type" : "thread",
+    "publishedDate" : "2018-05-24T07:43:42.087Z",
+    "threadContext" : null,
+    "id" : 128437,
+    "_links" : {
+      "self" : {
+        "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128437"
+      },
+      "repository" : {
+        "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c"
+      }
+    },
+    "timestamp" : "2018-05-24T07:43:42.087Z",
+    "identities" : null
+  }, {
+    "properties" : {
+      "CodeReviewThreadType" : {
+        "$type" : "System.String",
+        "$value" : "VoteUpdate"
+      },
+      "CodeReviewVotedByDisplayName" : {
+        "$type" : "System.String",
+        "$value" : "Jon Stoneman"
+      },
+      "CodeReviewVotedByTfId" : {
+        "$type" : "System.String",
+        "$value" : "d8157a4d-1339-4773-8cb7-b38f52a12b4e"
+      },
+      "CodeReviewVoteResult" : {
+        "$type" : "System.String",
+        "$value" : "10"
+      },
+      "CodeReviewVotedByInitiatorDisplayName" : {
+        "$type" : "System.String",
+        "$value" : "Jon Stoneman"
+      },
+      "CodeReviewVotedByInitiatorTfId" : {
+        "$type" : "System.String",
+        "$value" : "d8157a4d-1339-4773-8cb7-b38f52a12b4e"
+      }
+    },
+    "isDeleted" : false,
+    "pullRequestThreadContext" : null,
+    "comments" : [ {
+      "parentCommentId" : 0,
+      "content" : "Jon Stoneman voted 10",
+      "lastUpdatedDate" : "2018-05-24T07:43:42.117Z",
+      "commentType" : "system",
+      "publishedDate" : "2018-05-24T07:43:42.117Z",
+      "lastContentUpdatedDate" : "2018-05-24T07:43:42.117Z",
+      "author" : {
+        "displayName" : "Jon Stoneman",
+        "url" : "https://app.vssps.visualstudio.com/Ab962ed4f-6670-4a37-ad24-8b9381530e67/_apis/Identities/d8157a4d-1339-4773-8cb7-b38f52a12b4e",
+        "_links" : {
+          "avatar" : {
+            "href" : "https://msmobilecenter.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.OTgzZDBhZTctMzJmYS03ZWU1LTk4N2MtY2MxMTRkNzAyNDA2"
+          }
+        },
+        "id" : "d8157a4d-1339-4773-8cb7-b38f52a12b4e",
+        "uniqueName" : "jonsto@microsoft.com",
+        "imageUrl" : "https://msmobilecenter.visualstudio.com/_api/_common/identityImage?id=d8157a4d-1339-4773-8cb7-b38f52a12b4e",
+        "descriptor" : "aad.OTgzZDBhZTctMzJmYS03ZWU1LTk4N2MtY2MxMTRkNzAyNDA2"
+      },
+      "id" : 1,
+      "usersLiked" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128438/comments/1"
+        },
+        "repository" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c"
+        },
+        "threads" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128438"
+        }
+      }
+    } ],
+    "lastUpdatedDate" : "2018-05-24T07:43:42.117Z",
+    "type" : "thread",
+    "publishedDate" : "2018-05-24T07:43:42.117Z",
+    "threadContext" : null,
+    "id" : 128438,
+    "_links" : {
+      "self" : {
+        "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128438"
+      },
+      "repository" : {
+        "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c"
+      }
+    },
+    "timestamp" : "2018-05-24T07:43:42.117Z",
+    "identities" : null
+  }, {
+    "description" : "Better way to get append blobs",
+    "updatedDate" : "2018-05-24T18:33:27.7864943Z",
+    "push" : {
+      "pushId" : 136163
+    },
+    "type" : "iteration",
+    "targetRefCommit" : {
+      "commitId" : "6b5eaa67253df6e59a7990fb2f84bc23e2c33e61"
+    },
+    "author" : {
+      "displayName" : "Tomasz Kmiecik",
+      "url" : "https://app.vssps.visualstudio.com/Ab962ed4f-6670-4a37-ad24-8b9381530e67/_apis/Identities/19c36dea-f032-4a87-946c-2df750fa467d",
+      "_links" : {
+        "avatar" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.YzQ4ZjQ4MTktYjQ3MS03YWJhLTlmYjUtZGUzMWRhNjlkZmVh"
+        }
+      },
+      "id" : "19c36dea-f032-4a87-946c-2df750fa467d",
+      "uniqueName" : "tomaskmi@microsoft.com",
+      "imageUrl" : "https://msmobilecenter.visualstudio.com/_api/_common/identityImage?id=19c36dea-f032-4a87-946c-2df750fa467d",
+      "descriptor" : "aad.YzQ4ZjQ4MTktYjQ3MS03YWJhLTlmYjUtZGUzMWRhNjlkZmVh"
+    },
+    "reason" : "push",
+    "id" : 2,
+    "createdDate" : "2018-05-24T18:33:27.7864943Z",
+    "sourceRefCommit" : {
+      "commitId" : "a5fefa66dd556789de432d83b59d659e6f04be17"
+    },
+    "timestamp" : "2018-05-24T18:33:27.786Z",
+    "hasMoreCommits" : false,
+    "commonRefCommit" : {
+      "commitId" : "6b5eaa67253df6e59a7990fb2f84bc23e2c33e61"
+    }
+  }, {
+    "properties" : {
+      "CodeReviewThreadType" : {
+        "$type" : "System.String",
+        "$value" : "RefUpdate"
+      },
+      "CodeReviewRefName" : {
+        "$type" : "System.String",
+        "$value" : "refs/heads/bugs/40357"
+      },
+      "CodeReviewRefNewCommits" : {
+        "$type" : "System.String",
+        "$value" : "a5fefa66dd556789de432d83b59d659e6f04be17;d75118fbb0633886b76d63424e624614da9ed3ab"
+      },
+      "CodeReviewRefNewCommitsCount" : {
+        "$type" : "System.Int32",
+        "$value" : 2
+      },
+      "CodeReviewRefNewHeadCommit" : {
+        "$type" : "System.String",
+        "$value" : "a5fefa66dd556789de432d83b59d659e6f04be17"
+      },
+      "CodeReviewRefUpdatedBy" : {
+        "$type" : "System.String",
+        "$value" : "72f988bf-86f1-41af-91ab-2d7cd011db47\\tomaskmi@microsoft.com"
+      },
+      "CodeReviewRefUpdatedByDisplayName" : {
+        "$type" : "System.String",
+        "$value" : "Tomasz Kmiecik"
+      },
+      "CodeReviewRefUpdatedByTfId" : {
+        "$type" : "System.String",
+        "$value" : "19c36dea-f032-4a87-946c-2df750fa467d"
+      }
+    },
+    "isDeleted" : false,
+    "pullRequestThreadContext" : null,
+    "comments" : [ {
+      "parentCommentId" : 0,
+      "content" : "The reference refs/heads/bugs/40357 was updated.",
+      "lastUpdatedDate" : "2018-05-24T18:33:27.91Z",
+      "commentType" : "system",
+      "publishedDate" : "2018-05-24T18:33:27.91Z",
+      "lastContentUpdatedDate" : "2018-05-24T18:33:27.91Z",
+      "author" : {
+        "displayName" : "Microsoft.VisualStudio.Services.TFS",
+        "url" : "https://app.vssps.visualstudio.com/Ab962ed4f-6670-4a37-ad24-8b9381530e67/_apis/Identities/00000002-0000-8888-8000-000000000000",
+        "_links" : {
+          "avatar" : {
+            "href" : "https://msmobilecenter.visualstudio.com/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+          }
+        },
+        "id" : "00000002-0000-8888-8000-000000000000",
+        "uniqueName" : "",
+        "imageUrl" : "https://msmobilecenter.visualstudio.com/_api/_common/identityImage?id=00000002-0000-8888-8000-000000000000",
+        "descriptor" : "s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+      },
+      "id" : 1,
+      "usersLiked" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128810/comments/1"
+        },
+        "repository" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c"
+        },
+        "threads" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128810"
+        }
+      }
+    } ],
+    "lastUpdatedDate" : "2018-05-24T18:33:27.91Z",
+    "type" : "thread",
+    "publishedDate" : "2018-05-24T18:33:27.91Z",
+    "threadContext" : null,
+    "id" : 128810,
+    "_links" : {
+      "self" : {
+        "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128810"
+      },
+      "repository" : {
+        "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c"
+      }
+    },
+    "timestamp" : "2018-05-24T18:33:27.910Z",
+    "identities" : null
+  }, {
+    "properties" : {
+      "CodeReviewMergeCommit" : {
+        "$type" : "System.String",
+        "$value" : "a5b5ecd5e012a2ab69eb7b15c872a160a7f70a9d"
+      },
+      "CodeReviewMergeStatus" : {
+        "$type" : "System.String",
+        "$value" : "Succeeded"
+      },
+      "CodeReviewSourceCommit" : {
+        "$type" : "System.String",
+        "$value" : "a5fefa66dd556789de432d83b59d659e6f04be17"
+      },
+      "CodeReviewTargetCommit" : {
+        "$type" : "System.String",
+        "$value" : "6b5eaa67253df6e59a7990fb2f84bc23e2c33e61"
+      },
+      "CodeReviewThreadType" : {
+        "$type" : "System.String",
+        "$value" : "MergeAttempt"
+      }
+    },
+    "isDeleted" : false,
+    "pullRequestThreadContext" : null,
+    "comments" : [ {
+      "parentCommentId" : 0,
+      "content" : "The pull request is mergable and the target commit would be a5b5ecd5e012a2ab69eb7b15c872a160a7f70a9d.",
+      "lastUpdatedDate" : "2018-05-24T18:33:29.16Z",
+      "commentType" : "system",
+      "publishedDate" : "2018-05-24T18:33:29.16Z",
+      "lastContentUpdatedDate" : "2018-05-24T18:33:29.16Z",
+      "author" : {
+        "displayName" : "Microsoft.VisualStudio.Services.TFS",
+        "url" : "https://app.vssps.visualstudio.com/Ab962ed4f-6670-4a37-ad24-8b9381530e67/_apis/Identities/00000002-0000-8888-8000-000000000000",
+        "_links" : {
+          "avatar" : {
+            "href" : "https://msmobilecenter.visualstudio.com/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+          }
+        },
+        "id" : "00000002-0000-8888-8000-000000000000",
+        "uniqueName" : "",
+        "imageUrl" : "https://msmobilecenter.visualstudio.com/_api/_common/identityImage?id=00000002-0000-8888-8000-000000000000",
+        "descriptor" : "s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+      },
+      "id" : 1,
+      "usersLiked" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128811/comments/1"
+        },
+        "repository" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c"
+        },
+        "threads" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128811"
+        }
+      }
+    } ],
+    "lastUpdatedDate" : "2018-05-24T18:33:29.16Z",
+    "type" : "thread",
+    "publishedDate" : "2018-05-24T18:33:29.16Z",
+    "threadContext" : null,
+    "id" : 128811,
+    "_links" : {
+      "self" : {
+        "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128811"
+      },
+      "repository" : {
+        "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c"
+      }
+    },
+    "timestamp" : "2018-05-24T18:33:29.160Z",
+    "identities" : null
+  }, {
+    "properties" : {
+      "CodeReviewThreadType" : {
+        "$type" : "System.String",
+        "$value" : "PolicyStatusUpdate"
+      },
+      "CodeReviewPolicyType" : {
+        "$type" : "System.String",
+        "$value" : "40e92b44-2fe1-4dd6-b3d8-74a9c21d0c6e"
+      },
+      "LinkedWorkItems" : {
+        "$type" : "System.String",
+        "$value" : "[40357]"
+      }
+    },
+    "isDeleted" : false,
+    "pullRequestThreadContext" : null,
+    "comments" : [ {
+      "parentCommentId" : 0,
+      "content" : "Policy status has been updated",
+      "lastUpdatedDate" : "2018-05-24T18:48:04.337Z",
+      "commentType" : "system",
+      "publishedDate" : "2018-05-24T18:48:04.337Z",
+      "lastContentUpdatedDate" : "2018-05-24T18:48:04.337Z",
+      "author" : {
+        "displayName" : "Tomasz Kmiecik",
+        "url" : "https://app.vssps.visualstudio.com/Ab962ed4f-6670-4a37-ad24-8b9381530e67/_apis/Identities/19c36dea-f032-4a87-946c-2df750fa467d",
+        "_links" : {
+          "avatar" : {
+            "href" : "https://msmobilecenter.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.YzQ4ZjQ4MTktYjQ3MS03YWJhLTlmYjUtZGUzMWRhNjlkZmVh"
+          }
+        },
+        "id" : "19c36dea-f032-4a87-946c-2df750fa467d",
+        "uniqueName" : "tomaskmi@microsoft.com",
+        "imageUrl" : "https://msmobilecenter.visualstudio.com/_api/_common/identityImage?id=19c36dea-f032-4a87-946c-2df750fa467d",
+        "descriptor" : "aad.YzQ4ZjQ4MTktYjQ3MS03YWJhLTlmYjUtZGUzMWRhNjlkZmVh"
+      },
+      "id" : 1,
+      "usersLiked" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128821/comments/1"
+        },
+        "repository" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c"
+        },
+        "threads" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128821"
+        }
+      }
+    } ],
+    "lastUpdatedDate" : "2018-05-24T18:48:04.337Z",
+    "type" : "thread",
+    "publishedDate" : "2018-05-24T18:48:04.337Z",
+    "threadContext" : null,
+    "id" : 128821,
+    "_links" : {
+      "self" : {
+        "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128821"
+      },
+      "repository" : {
+        "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c"
+      }
+    },
+    "timestamp" : "2018-05-24T18:48:04.337Z",
+    "identities" : null
+  }, {
+    "properties" : {
+      "CodeReviewThreadType" : {
+        "$type" : "System.String",
+        "$value" : "StatusUpdate"
+      },
+      "CodeReviewStatus" : {
+        "$type" : "System.String",
+        "$value" : "Completed"
+      },
+      "CodeReviewStatusUpdatedByDisplayName" : {
+        "$type" : "System.String",
+        "$value" : "Tomasz Kmiecik"
+      },
+      "CodeReviewStatusUpdatedByTfId" : {
+        "$type" : "System.String",
+        "$value" : "19c36dea-f032-4a87-946c-2df750fa467d"
+      },
+      "CodeReviewStatusUpdateAssociatedCommit" : {
+        "$type" : "System.String",
+        "$value" : "de030ae2aebde281adea52be60ac512e62be6d91"
+      },
+      "BypassPolicy" : {
+        "$type" : "System.String",
+        "$value" : "False"
+      },
+      "BypassReason" : {
+        "$type" : "System.String",
+        "$value" : ""
+      }
+    },
+    "isDeleted" : false,
+    "pullRequestThreadContext" : null,
+    "comments" : [ {
+      "parentCommentId" : 0,
+      "content" : "Tomasz Kmiecik updated the pull request status to Completed",
+      "lastUpdatedDate" : "2018-05-24T18:48:04.443Z",
+      "commentType" : "system",
+      "publishedDate" : "2018-05-24T18:48:04.443Z",
+      "lastContentUpdatedDate" : "2018-05-24T18:48:04.443Z",
+      "author" : {
+        "displayName" : "Tomasz Kmiecik",
+        "url" : "https://app.vssps.visualstudio.com/Ab962ed4f-6670-4a37-ad24-8b9381530e67/_apis/Identities/19c36dea-f032-4a87-946c-2df750fa467d",
+        "_links" : {
+          "avatar" : {
+            "href" : "https://msmobilecenter.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.YzQ4ZjQ4MTktYjQ3MS03YWJhLTlmYjUtZGUzMWRhNjlkZmVh"
+          }
+        },
+        "id" : "19c36dea-f032-4a87-946c-2df750fa467d",
+        "uniqueName" : "tomaskmi@microsoft.com",
+        "imageUrl" : "https://msmobilecenter.visualstudio.com/_api/_common/identityImage?id=19c36dea-f032-4a87-946c-2df750fa467d",
+        "descriptor" : "aad.YzQ4ZjQ4MTktYjQ3MS03YWJhLTlmYjUtZGUzMWRhNjlkZmVh"
+      },
+      "id" : 1,
+      "usersLiked" : [ ],
+      "_links" : {
+        "self" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128822/comments/1"
+        },
+        "repository" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c"
+        },
+        "threads" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128822"
+        }
+      }
+    } ],
+    "lastUpdatedDate" : "2018-05-24T18:48:04.443Z",
+    "type" : "thread",
+    "publishedDate" : "2018-05-24T18:48:04.443Z",
+    "threadContext" : null,
+    "id" : 128822,
+    "_links" : {
+      "self" : {
+        "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/threads/128822"
+      },
+      "repository" : {
+        "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c"
+      }
+    },
+    "timestamp" : "2018-05-24T18:48:04.443Z",
+    "identities" : null
+  } ],
+  "completionQueueTime" : "2018-05-24T18:48:02.7884924Z",
+  "codeReviewId" : 13398,
+  "mergeId" : "e738d815-c4e0-400d-bdb6-d6fe14a7c4d5",
+  "supportsIterations" : true,
+  "title" : "Fixing InvalidCastException in GDPR Test Controller",
+  "closedBy" : {
+    "displayName" : "Tomasz Kmiecik",
+    "url" : "https://app.vssps.visualstudio.com/Ab962ed4f-6670-4a37-ad24-8b9381530e67/_apis/Identities/19c36dea-f032-4a87-946c-2df750fa467d",
+    "_links" : {
+      "avatar" : {
+        "href" : "https://msmobilecenter.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.YzQ4ZjQ4MTktYjQ3MS03YWJhLTlmYjUtZGUzMWRhNjlkZmVh"
+      }
+    },
+    "id" : "19c36dea-f032-4a87-946c-2df750fa467d",
+    "uniqueName" : "tomaskmi@microsoft.com",
+    "imageUrl" : "https://msmobilecenter.visualstudio.com/_api/_common/identityImage?id=19c36dea-f032-4a87-946c-2df750fa467d",
+    "descriptor" : "aad.YzQ4ZjQ4MTktYjQ3MS03YWJhLTlmYjUtZGUzMWRhNjlkZmVh"
+  },
+  "targetRefName" : "refs/heads/master",
+  "artifactId" : "vstfs:///Git/PullRequestId/454a20a9-dfe6-4c1f-8ae8-417f76adb472%2fbcd79acf-9383-4121-86d7-c5d443d9a72c%2f13398",
+  "status" : "completed",
+  "mergeStatus" : "succeeded",
+  "url" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398",
+  "_links" : {
+    "targetCommit" : {
+      "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/commits/c1f96ea08a10499a06cff56fb91754674e3c40b7"
+    },
+    "repository" : {
+      "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c"
+    },
+    "createdBy" : {
+      "href" : "https://app.vssps.visualstudio.com/Ab962ed4f-6670-4a37-ad24-8b9381530e67/_apis/Identities/19c36dea-f032-4a87-946c-2df750fa467d"
+    },
+    "targetBranch" : {
+      "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/refs"
+    },
+    "mergeCommit" : {
+      "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/commits/de030ae2aebde281adea52be60ac512e62be6d91"
+    },
+    "sourceCommit" : {
+      "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/commits/a5fefa66dd556789de432d83b59d659e6f04be17"
+    },
+    "sourceBranch" : {
+      "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/refs"
+    },
+    "iterations" : {
+      "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/iterations"
+    },
+    "workItems" : {
+      "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/workitems"
+    },
+    "self" : {
+      "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398"
+    },
+    "statuses" : {
+      "href" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/statuses"
+    }
+  },
+  "lastMergeTargetCommit" : {
+    "commitId" : "c1f96ea08a10499a06cff56fb91754674e3c40b7",
+    "url" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/commits/c1f96ea08a10499a06cff56fb91754674e3c40b7"
+  },
+  "sourceRefName" : "refs/heads/bugs/40357",
+  "creationDate" : "2018-05-24T07:39:56.180Z",
+  "lastMergeCommit" : {
+    "commitId" : "de030ae2aebde281adea52be60ac512e62be6d91",
+    "author" : {
+      "name" : "Tomasz Kmiecik",
+      "email" : "tomaskmi@microsoft.com",
+      "date" : "2018-05-24T18:48:02Z"
+    },
+    "committer" : {
+      "name" : "Tomasz Kmiecik",
+      "email" : "tomaskmi@microsoft.com",
+      "date" : "2018-05-24T18:48:02Z"
+    },
+    "comment" : "Merged PR 13398: Fixing InvalidCastException in GDPR Test Controller",
+    "commentTruncated" : true,
+    "url" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/commits/de030ae2aebde281adea52be60ac512e62be6d91"
+  },
+  "reviewers" : [ {
+    "votedFor" : [ {
+      "vote" : 0,
+      "displayName" : "[Mobile-Center]\\Soren-Team",
+      "uniqueName" : "vstfs:///Classification/TeamProject/454a20a9-dfe6-4c1f-8ae8-417f76adb472\\Soren-Team",
+      "imageUrl" : "https://msmobilecenter.visualstudio.com/_api/_common/identityImage?id=a06109e0-b546-419a-a512-e8fd85d64aa1",
+      "id" : "a06109e0-b546-419a-a512-e8fd85d64aa1",
+      "url" : "https://app.vssps.visualstudio.com/Ab962ed4f-6670-4a37-ad24-8b9381530e67/_apis/Identities/a06109e0-b546-419a-a512-e8fd85d64aa1",
+      "reviewerUrl" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/reviewers/a06109e0-b546-419a-a512-e8fd85d64aa1",
+      "_links" : {
+        "avatar" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/GraphProfile/MemberAvatars/vssgp.Uy0xLTktMTU1MTM3NDI0NS0yODM3NDY1NjY5LTM4NzMzODIyMjAtMjMzMDQ3NjkyNy0xOTkxMDk1NDEwLTEtMTgxNzczNjAxMC0yODcyMTYwNTg4LTIzNjI0MDQ4MDQtNzQwMDkwMTgx"
+        }
+      },
+      "isContainer" : true
+    } ],
+    "vote" : 10,
+    "displayName" : "Tomasz Kmiecik",
+    "uniqueName" : "tomaskmi@microsoft.com",
+    "imageUrl" : "https://msmobilecenter.visualstudio.com/_api/_common/identityImage?id=19c36dea-f032-4a87-946c-2df750fa467d",
+    "id" : "19c36dea-f032-4a87-946c-2df750fa467d",
+    "url" : "https://app.vssps.visualstudio.com/Ab962ed4f-6670-4a37-ad24-8b9381530e67/_apis/Identities/19c36dea-f032-4a87-946c-2df750fa467d",
+    "reviewerUrl" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/reviewers/19c36dea-f032-4a87-946c-2df750fa467d",
+    "_links" : {
+      "avatar" : {
+        "href" : "https://msmobilecenter.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.YzQ4ZjQ4MTktYjQ3MS03YWJhLTlmYjUtZGUzMWRhNjlkZmVh"
+      }
+    }
+  }, {
+    "votedFor" : [ {
+      "vote" : 0,
+      "displayName" : "[Mobile-Center]\\Soren-Team",
+      "uniqueName" : "vstfs:///Classification/TeamProject/454a20a9-dfe6-4c1f-8ae8-417f76adb472\\Soren-Team",
+      "imageUrl" : "https://msmobilecenter.visualstudio.com/_api/_common/identityImage?id=a06109e0-b546-419a-a512-e8fd85d64aa1",
+      "id" : "a06109e0-b546-419a-a512-e8fd85d64aa1",
+      "url" : "https://app.vssps.visualstudio.com/Ab962ed4f-6670-4a37-ad24-8b9381530e67/_apis/Identities/a06109e0-b546-419a-a512-e8fd85d64aa1",
+      "reviewerUrl" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/reviewers/a06109e0-b546-419a-a512-e8fd85d64aa1",
+      "_links" : {
+        "avatar" : {
+          "href" : "https://msmobilecenter.visualstudio.com/_apis/GraphProfile/MemberAvatars/vssgp.Uy0xLTktMTU1MTM3NDI0NS0yODM3NDY1NjY5LTM4NzMzODIyMjAtMjMzMDQ3NjkyNy0xOTkxMDk1NDEwLTEtMTgxNzczNjAxMC0yODcyMTYwNTg4LTIzNjI0MDQ4MDQtNzQwMDkwMTgx"
+        }
+      },
+      "isContainer" : true
+    } ],
+    "vote" : 10,
+    "displayName" : "Jon Stoneman",
+    "uniqueName" : "jonsto@microsoft.com",
+    "imageUrl" : "https://msmobilecenter.visualstudio.com/_api/_common/identityImage?id=d8157a4d-1339-4773-8cb7-b38f52a12b4e",
+    "id" : "d8157a4d-1339-4773-8cb7-b38f52a12b4e",
+    "url" : "https://app.vssps.visualstudio.com/Ab962ed4f-6670-4a37-ad24-8b9381530e67/_apis/Identities/d8157a4d-1339-4773-8cb7-b38f52a12b4e",
+    "reviewerUrl" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/reviewers/d8157a4d-1339-4773-8cb7-b38f52a12b4e",
+    "_links" : {
+      "avatar" : {
+        "href" : "https://msmobilecenter.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.OTgzZDBhZTctMzJmYS03ZWU1LTk4N2MtY2MxMTRkNzAyNDA2"
+      }
+    }
+  }, {
+    "vote" : 10,
+    "displayName" : "[Mobile-Center]\\Soren-Team",
+    "uniqueName" : "vstfs:///Classification/TeamProject/454a20a9-dfe6-4c1f-8ae8-417f76adb472\\Soren-Team",
+    "imageUrl" : "https://msmobilecenter.visualstudio.com/_api/_common/identityImage?id=a06109e0-b546-419a-a512-e8fd85d64aa1",
+    "id" : "a06109e0-b546-419a-a512-e8fd85d64aa1",
+    "url" : "https://app.vssps.visualstudio.com/Ab962ed4f-6670-4a37-ad24-8b9381530e67/_apis/Identities/a06109e0-b546-419a-a512-e8fd85d64aa1",
+    "reviewerUrl" : "https://msmobilecenter.visualstudio.com/_apis/git/repositories/bcd79acf-9383-4121-86d7-c5d443d9a72c/pullRequests/13398/reviewers/a06109e0-b546-419a-a512-e8fd85d64aa1",
+    "_links" : {
+      "avatar" : {
+        "href" : "https://msmobilecenter.visualstudio.com/_apis/GraphProfile/MemberAvatars/vssgp.Uy0xLTktMTU1MTM3NDI0NS0yODM3NDY1NjY5LTM4NzMzODIyMjAtMjMzMDQ3NjkyNy0xOTkxMDk1NDEwLTEtMTgxNzczNjAxMC0yODcyMTYwNTg4LTIzNjI0MDQ4MDQtNzQwMDkwMTgx"
+      }
+    },
+    "isContainer" : true
+  } ]
+}

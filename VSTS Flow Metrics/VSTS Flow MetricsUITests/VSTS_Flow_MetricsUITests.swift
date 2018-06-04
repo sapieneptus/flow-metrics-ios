@@ -1,6 +1,5 @@
 
 import XCTest
-import AppCenterCrashes
 import AppCenterXCUITestExtensions
 
 class VSTS_Flow_MetricsUITests: XCTestCase {
@@ -27,8 +26,9 @@ class VSTS_Flow_MetricsUITests: XCTestCase {
         ACTLabel.labelStep("Then I tap the first button")
     }
 
-    func testCrashOnPurpose() {
+    enum Crasher:Error { case Crash }
+    func testCrashOnPurpose() throws {
         ACTLabel.labelStep("I will crash on purpose")
-        MSCrashes.generateTestCrash()
+        throw Crasher.Crash
     }
 }

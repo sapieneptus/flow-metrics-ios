@@ -26,7 +26,12 @@
 		892BA7AF20C5335600AD5683 /* app_secret.txt.example in Resources */ = {isa = PBXBuildFile; fileRef = 892BA7AC20C5335600AD5683 /* app_secret.txt.example */; };
 		892BA7B220C55D2400AD5683 /* UserEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892BA7B120C55D2400AD5683 /* UserEvents.swift */; };
 		892BA7B320C55D2400AD5683 /* UserEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892BA7B120C55D2400AD5683 /* UserEvents.swift */; };
-		892BA7B420C55D2400AD5683 /* UserEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892BA7B120C55D2400AD5683 /* UserEvents.swift */; };
+		892BA7B820C567B700AD5683 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892BA7B720C567B700AD5683 /* API.swift */; };
+		892BA7B920C567B700AD5683 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892BA7B720C567B700AD5683 /* API.swift */; };
+		892BA7BB20C568DD00AD5683 /* PullRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892BA7BA20C568DD00AD5683 /* PullRequest.swift */; };
+		892BA7BC20C568DD00AD5683 /* PullRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892BA7BA20C568DD00AD5683 /* PullRequest.swift */; };
+		892BA7BF20C5695500AD5683 /* sample-pr.json in Resources */ = {isa = PBXBuildFile; fileRef = 892BA7BE20C5695400AD5683 /* sample-pr.json */; };
+		892BA7C020C5695500AD5683 /* sample-pr.json in Resources */ = {isa = PBXBuildFile; fileRef = 892BA7BE20C5695400AD5683 /* sample-pr.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +73,9 @@
 		892BA7A820C5334300AD5683 /* app_secret.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = app_secret.txt; sourceTree = "<group>"; };
 		892BA7AC20C5335600AD5683 /* app_secret.txt.example */ = {isa = PBXFileReference; lastKnownFileType = text; path = app_secret.txt.example; sourceTree = "<group>"; };
 		892BA7B120C55D2400AD5683 /* UserEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEvents.swift; sourceTree = "<group>"; };
+		892BA7B720C567B700AD5683 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		892BA7BA20C568DD00AD5683 /* PullRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullRequest.swift; sourceTree = "<group>"; };
+		892BA7BE20C5695400AD5683 /* sample-pr.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sample-pr.json"; sourceTree = "<group>"; };
 		9ADBB8FF4D9BC1FF7797F33D /* Pods-VSTS Flow Metrics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSTS Flow Metrics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VSTS Flow Metrics/Pods-VSTS Flow Metrics.debug.xcconfig"; sourceTree = "<group>"; };
 		ADC8574252F0CABC036C54E6 /* Pods-VSTS Flow MetricsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSTS Flow MetricsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VSTS Flow MetricsUITests/Pods-VSTS Flow MetricsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DF5B21F0C04F88305FB8FCD0 /* Pods_VSTS_Flow_Metrics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VSTS_Flow_Metrics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +159,9 @@
 		892BA77620C5304900AD5683 /* VSTS Flow Metrics */ = {
 			isa = PBXGroup;
 			children = (
+				892BA7BD20C5694300AD5683 /* MockData */,
+				892BA7B620C567A000AD5683 /* API */,
+				892BA7B520C5679800AD5683 /* Models */,
 				892BA7B020C55CFB00AD5683 /* Utilities */,
 				892BA7A720C5332A00AD5683 /* Secrets */,
 				892BA77720C5304900AD5683 /* AppDelegate.swift */,
@@ -197,6 +208,30 @@
 				892BA7B120C55D2400AD5683 /* UserEvents.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		892BA7B520C5679800AD5683 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				892BA7BA20C568DD00AD5683 /* PullRequest.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		892BA7B620C567A000AD5683 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				892BA7B720C567B700AD5683 /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		892BA7BD20C5694300AD5683 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				892BA7BE20C5695400AD5683 /* sample-pr.json */,
+			);
+			path = MockData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				892BA78420C5304900AD5683 /* LaunchScreen.storyboard in Resources */,
+				892BA7BF20C5695500AD5683 /* sample-pr.json in Resources */,
 				892BA7AD20C5335600AD5683 /* app_secret.txt.example in Resources */,
 				892BA78120C5304900AD5683 /* Assets.xcassets in Resources */,
 				892BA7A920C5334300AD5683 /* app_secret.txt in Resources */,
@@ -328,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				892BA7AE20C5335600AD5683 /* app_secret.txt.example in Resources */,
+				892BA7C020C5695500AD5683 /* sample-pr.json in Resources */,
 				892BA7AA20C5334300AD5683 /* app_secret.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,10 +523,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892BA7BB20C568DD00AD5683 /* PullRequest.swift in Sources */,
 				892BA77C20C5304900AD5683 /* SecondViewController.swift in Sources */,
 				892BA77820C5304900AD5683 /* AppDelegate.swift in Sources */,
 				892BA77A20C5304900AD5683 /* FirstViewController.swift in Sources */,
 				892BA7B220C55D2400AD5683 /* UserEvents.swift in Sources */,
+				892BA7B820C567B700AD5683 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +537,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				892BA78F20C5304900AD5683 /* VSTS_Flow_MetricsTests.swift in Sources */,
+				892BA7B920C567B700AD5683 /* API.swift in Sources */,
+				892BA7BC20C568DD00AD5683 /* PullRequest.swift in Sources */,
 				892BA7B320C55D2400AD5683 /* UserEvents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,7 +548,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				892BA79A20C5304900AD5683 /* VSTS_Flow_MetricsUITests.swift in Sources */,
-				892BA7B420C55D2400AD5683 /* UserEvents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
