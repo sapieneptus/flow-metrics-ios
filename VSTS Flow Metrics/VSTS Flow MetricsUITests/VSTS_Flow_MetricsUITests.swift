@@ -1,5 +1,6 @@
 
 import XCTest
+import AppCenterCrashes
 import AppCenterXCUITestExtensions
 
 class VSTS_Flow_MetricsUITests: XCTestCase {
@@ -25,5 +26,9 @@ class VSTS_Flow_MetricsUITests: XCTestCase {
         tabBarsQuery.buttons["First"].tap()
         ACTLabel.labelStep("Then I tap the first button")
     }
-    
+
+    func testCrashOnPurpose() {
+        ACTLabel.labelStep("I will crash on purpose")
+        MSCrashes.generateTestCrash()
+    }
 }

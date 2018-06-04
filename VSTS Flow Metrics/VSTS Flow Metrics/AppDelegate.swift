@@ -12,7 +12,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-
         /* App Center SDK Integration */
         if let appSecretPath = Bundle.main.path(forResource: "app_secret", ofType: "txt"), let appSecret = try? String(contentsOfFile:appSecretPath) {
             MSAppCenter.start(appSecret, withServices:[
@@ -23,6 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         } else {
             print("ERROR: unable to find 'app_secret.txt' in your bundle.")
         }
+
+        UserEvents.track(.AppLaunch)
         return true
     }
 

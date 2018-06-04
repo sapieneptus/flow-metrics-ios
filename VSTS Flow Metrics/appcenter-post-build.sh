@@ -37,5 +37,6 @@ appcenter test run xcuitest \
   --test-series "master" \
   --locale "en_US" \
   --build-dir DerivedData/Build/Products/Debug-iphoneos \
-  --token "${API_TOKEN}"
+  --token "${API_TOKEN}" \
+  --async
 #

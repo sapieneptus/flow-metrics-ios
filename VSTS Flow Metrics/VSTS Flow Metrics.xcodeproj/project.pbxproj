@@ -24,6 +24,9 @@
 		892BA7AD20C5335600AD5683 /* app_secret.txt.example in Resources */ = {isa = PBXBuildFile; fileRef = 892BA7AC20C5335600AD5683 /* app_secret.txt.example */; };
 		892BA7AE20C5335600AD5683 /* app_secret.txt.example in Resources */ = {isa = PBXBuildFile; fileRef = 892BA7AC20C5335600AD5683 /* app_secret.txt.example */; };
 		892BA7AF20C5335600AD5683 /* app_secret.txt.example in Resources */ = {isa = PBXBuildFile; fileRef = 892BA7AC20C5335600AD5683 /* app_secret.txt.example */; };
+		892BA7B220C55D2400AD5683 /* UserEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892BA7B120C55D2400AD5683 /* UserEvents.swift */; };
+		892BA7B320C55D2400AD5683 /* UserEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892BA7B120C55D2400AD5683 /* UserEvents.swift */; };
+		892BA7B420C55D2400AD5683 /* UserEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892BA7B120C55D2400AD5683 /* UserEvents.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,7 @@
 		892BA79B20C5304900AD5683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		892BA7A820C5334300AD5683 /* app_secret.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = app_secret.txt; sourceTree = "<group>"; };
 		892BA7AC20C5335600AD5683 /* app_secret.txt.example */ = {isa = PBXFileReference; lastKnownFileType = text; path = app_secret.txt.example; sourceTree = "<group>"; };
+		892BA7B120C55D2400AD5683 /* UserEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEvents.swift; sourceTree = "<group>"; };
 		9ADBB8FF4D9BC1FF7797F33D /* Pods-VSTS Flow Metrics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSTS Flow Metrics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VSTS Flow Metrics/Pods-VSTS Flow Metrics.debug.xcconfig"; sourceTree = "<group>"; };
 		ADC8574252F0CABC036C54E6 /* Pods-VSTS Flow MetricsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSTS Flow MetricsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VSTS Flow MetricsUITests/Pods-VSTS Flow MetricsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DF5B21F0C04F88305FB8FCD0 /* Pods_VSTS_Flow_Metrics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VSTS_Flow_Metrics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,6 +151,7 @@
 		892BA77620C5304900AD5683 /* VSTS Flow Metrics */ = {
 			isa = PBXGroup;
 			children = (
+				892BA7B020C55CFB00AD5683 /* Utilities */,
 				892BA7A720C5332A00AD5683 /* Secrets */,
 				892BA77720C5304900AD5683 /* AppDelegate.swift */,
 				892BA77920C5304900AD5683 /* FirstViewController.swift */,
@@ -184,6 +189,14 @@
 				892BA7AC20C5335600AD5683 /* app_secret.txt.example */,
 			);
 			path = Secrets;
+			sourceTree = "<group>";
+		};
+		892BA7B020C55CFB00AD5683 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				892BA7B120C55D2400AD5683 /* UserEvents.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -476,6 +489,7 @@
 				892BA77C20C5304900AD5683 /* SecondViewController.swift in Sources */,
 				892BA77820C5304900AD5683 /* AppDelegate.swift in Sources */,
 				892BA77A20C5304900AD5683 /* FirstViewController.swift in Sources */,
+				892BA7B220C55D2400AD5683 /* UserEvents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +498,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				892BA78F20C5304900AD5683 /* VSTS_Flow_MetricsTests.swift in Sources */,
+				892BA7B320C55D2400AD5683 /* UserEvents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +507,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				892BA79A20C5304900AD5683 /* VSTS_Flow_MetricsUITests.swift in Sources */,
+				892BA7B420C55D2400AD5683 /* UserEvents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
