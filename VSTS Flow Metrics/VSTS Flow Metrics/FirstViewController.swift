@@ -5,7 +5,7 @@ class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//        let pr = APIRequest.fetchMockPR()
+        let pr = APIRequest.fetchMockPR()
 
     }
 }

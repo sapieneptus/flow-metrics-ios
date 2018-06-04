@@ -27,6 +27,8 @@ class APIRequest {
     class func fetchMockPR() -> PullRequest {
         let mockDataPath = Bundle.main.path(forResource: "sample-pr", ofType: "json")!
         let mockData = NSData(contentsOfFile:mockDataPath)! as Data
-        return try! JSONDecoder().decode(PullRequest.self, from: mockData)
+        let decoder = JSONDecoder()
+        decoder.dateDecodingStrategy = .formatted(DateFormatter.iso8601Full)
+        return try! decoder.decode(PullRequest.self, from: mockData)
     }
 }
