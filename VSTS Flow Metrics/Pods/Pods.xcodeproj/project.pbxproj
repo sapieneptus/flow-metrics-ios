@@ -7,55 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10EBC088FF3A4C3EB97DD92195EDDCFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		088D0D3E69E8028649625DB9E31417DF /* Pods-VSTS Flow MetricsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6F12BFEFD5E46E72D595CB29E42A74 /* Pods-VSTS Flow MetricsUITests-dummy.m */; };
 		1169A269FDC398B720F362FB01AE660C /* Pods-VSTS Flow Metrics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31A5AC080A477041293AAC187363DE3A /* Pods-VSTS Flow Metrics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DF7B1E7B58E5EE104445D6F9DB17361 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
+		3145E3848BBCB4387124D5C48DD40487 /* AppCenterXCUITestExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD762FD8911313E4291649AA17C8860 /* AppCenterXCUITestExtensions-dummy.m */; };
+		3368F4AFCA4CB510C3A4D61E21127FF7 /* AppCenterXCUITestExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D8EEF83C293D38AB35B1A5131DCF23 /* AppCenterXCUITestExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		372118E900E747EFAE8073DD3D406520 /* Pods-VSTS Flow MetricsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4959261CC661D69A9986F41833E59F1 /* Pods-VSTS Flow MetricsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FC29C00FE792B3F13709746D33873DA /* Pods-VSTS Flow MetricsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6F12BFEFD5E46E72D595CB29E42A74 /* Pods-VSTS Flow MetricsUITests-dummy.m */; };
 		4B5C4E968AD6722E86DDAD1FAD639838 /* Pods-VSTS Flow MetricsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83460796EAB0B08022CECFC6288DA422 /* Pods-VSTS Flow MetricsTests-dummy.m */; };
+		5CB9C82D3C81F16A1E98491C7E9701EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
+		71D6E233570F4B0C9516032965F42089 /* AppCenterXCUITestExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B0B358377DA90971295395C65E8849 /* AppCenterXCUITestExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82799CDE196D8F0B99221EC15012D547 /* ACTLaunch.h in Headers */ = {isa = PBXBuildFile; fileRef = 912E11EE3820758A6980F8E3B17BF287 /* ACTLaunch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8897C9B8BC1D52A2E54285CA82EB0CDF /* Pods-VSTS Flow MetricsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F06494020E01EAF65EFC12ED9F2A2F /* Pods-VSTS Flow MetricsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F79BD12FC96C879483A6D385EAAA906 /* ACTLaunch.m in Sources */ = {isa = PBXBuildFile; fileRef = C906E7C189A951B632FDD767107D2B15 /* ACTLaunch.m */; };
+		981806B1DF9E05AE968A99D4FD8DE80E /* AppCenterXCUITestExtensions-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B86252F04B00A5740B4512BC753D299 /* AppCenterXCUITestExtensions-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B53842B4221FFCC8934D4CD7FED73569 /* ACTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BFC19A7C8C79A17D0BF4BD0A39AC77 /* ACTLabel.m */; };
 		C0E5916F17109EFC6FCE79647024A762 /* Pods-VSTS Flow Metrics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE273B9E1D54A5A3884432AC3DE5F2F /* Pods-VSTS Flow Metrics-dummy.m */; };
-		CCD7B3BEA27888D8D5EB4D836E317E68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E4BAF535E2C42A335D8791FDA8C8DA55 /* Pods-VSTS Flow MetricsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F06494020E01EAF65EFC12ED9F2A2F /* Pods-VSTS Flow MetricsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA2FB550D598F81CB4017E8EF2F893ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C5033D454345E24E760F2C9BC860C9AF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */; };
+		CCD7B3BEA27888D8D5EB4D836E317E68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
+		EA2FB550D598F81CB4017E8EF2F893ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
+		EBA610C6E7D7D9C653ABD89793D21009 /* ACTLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F99A0861C4B8F600D1F2A046B91A7129 /* ACTLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6E5A05852F8B15A8E5220FDDE6F729B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D787537662977C07F19B6A1A6B356BBC;
+			remoteInfo = AppCenterXCUITestExtensions;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		162DC0555996996E75AD9FEA3B66C7EE /* Pods_VSTS_Flow_MetricsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VSTS_Flow_MetricsUITests.framework; path = "Pods-VSTS Flow MetricsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		149E591F6A2723A0061A4A06AC8D5DAB /* Pods_VSTS_Flow_Metrics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VSTS_Flow_Metrics.framework; path = "Pods-VSTS Flow Metrics.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1814BC53D4AC9131A47E882E2E83C250 /* Pods-VSTS Flow MetricsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VSTS Flow MetricsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1B0AED9E80F17670363D332A89DB60E9 /* Pods-VSTS Flow MetricsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VSTS Flow MetricsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		275DEAAB07AB38756C25FF9F36046103 /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = "AppCenter-SDK-Apple/iOS/AppCenter.framework"; sourceTree = "<group>"; };
+		1EA82F9D9A5078085775ED8F1C0964C2 /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterCrashes.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterCrashes.framework"; sourceTree = "<group>"; };
+		26FFD58B01F3EFA7AE5CBD59C73A95A3 /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = "AppCenter-SDK-Apple/iOS/AppCenter.framework"; sourceTree = "<group>"; };
+		2DD13EAC73995118F705963078C84E55 /* Pods_VSTS_Flow_MetricsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VSTS_Flow_MetricsTests.framework; path = "Pods-VSTS Flow MetricsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FB69999E5644A89A7634FC54C83D0DB /* Pods-VSTS Flow MetricsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VSTS Flow MetricsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		31A5AC080A477041293AAC187363DE3A /* Pods-VSTS Flow Metrics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VSTS Flow Metrics-umbrella.h"; sourceTree = "<group>"; };
 		330362429880612484793FEEEC900B8E /* Pods-VSTS Flow Metrics-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VSTS Flow Metrics-frameworks.sh"; sourceTree = "<group>"; };
 		36C2E4635D1312651158DA665F0199C2 /* Pods-VSTS Flow MetricsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VSTS Flow MetricsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		44B362BE5B58CF53CAAB92AE6132FF60 /* Pods-VSTS Flow MetricsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VSTS Flow MetricsUITests-frameworks.sh"; sourceTree = "<group>"; };
 		4BE273B9E1D54A5A3884432AC3DE5F2F /* Pods-VSTS Flow Metrics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VSTS Flow Metrics-dummy.m"; sourceTree = "<group>"; };
+		4FDBFA6B27B39AE277F36F932B28D4B4 /* Pods_VSTS_Flow_MetricsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VSTS_Flow_MetricsUITests.framework; path = "Pods-VSTS Flow MetricsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F06494020E01EAF65EFC12ED9F2A2F /* Pods-VSTS Flow MetricsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VSTS Flow MetricsUITests-umbrella.h"; sourceTree = "<group>"; };
-		5351CBD2DE9358535B624F45830298EA /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterAnalytics.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework"; sourceTree = "<group>"; };
+		54D8EEF83C293D38AB35B1A5131DCF23 /* AppCenterXCUITestExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppCenterXCUITestExtensions.h; path = Sources/AppCenterXCUITestExtensions.h; sourceTree = "<group>"; };
 		583BEAAC145DCB71E0AA3262BC9FEEB7 /* Pods-VSTS Flow Metrics-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VSTS Flow Metrics-resources.sh"; sourceTree = "<group>"; };
 		597194DDDCCED532AE907064F019A184 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59E421EFDF8D9709CF892535F21DE67A /* Pods-VSTS Flow MetricsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VSTS Flow MetricsTests-frameworks.sh"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73BFC19A7C8C79A17D0BF4BD0A39AC77 /* ACTLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ACTLabel.m; path = Sources/ACTLabel.m; sourceTree = "<group>"; };
 		7E6ACA18C8C7716861E98C0A221E7EA3 /* Pods-VSTS Flow MetricsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VSTS Flow MetricsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7E779CA0D462B20594B18E0F0CB38CDD /* Pods-VSTS Flow Metrics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VSTS Flow Metrics.modulemap"; sourceTree = "<group>"; };
 		83460796EAB0B08022CECFC6288DA422 /* Pods-VSTS Flow MetricsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VSTS Flow MetricsTests-dummy.m"; sourceTree = "<group>"; };
+		8B86252F04B00A5740B4512BC753D299 /* AppCenterXCUITestExtensions-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AppCenterXCUITestExtensions-Bridging-Header.h"; path = "Sources/AppCenterXCUITestExtensions-Bridging-Header.h"; sourceTree = "<group>"; };
 		8C6B1235A2ECF7615787AC533376723F /* Pods-VSTS Flow Metrics-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VSTS Flow Metrics-acknowledgements.plist"; sourceTree = "<group>"; };
+		912E11EE3820758A6980F8E3B17BF287 /* ACTLaunch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACTLaunch.h; path = Sources/ACTLaunch.h; sourceTree = "<group>"; };
 		92ACC251242160CF44011342CFC1E702 /* Pods-VSTS Flow Metrics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VSTS Flow Metrics.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A6D821943A544BF69310EB127C7F596 /* Pods-VSTS Flow MetricsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VSTS Flow MetricsTests-resources.sh"; sourceTree = "<group>"; };
 		A4959261CC661D69A9986F41833E59F1 /* Pods-VSTS Flow MetricsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VSTS Flow MetricsTests-umbrella.h"; sourceTree = "<group>"; };
 		A70F71D5BB7B1A21F0C3090FCE5F65A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE3BB4EA55D29C6BED76DFB97C79EE53 /* AppCenterXCUITestExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AppCenterXCUITestExtensions.modulemap; sourceTree = "<group>"; };
 		B0E95459489210FF0F79691DB5B3B4C3 /* Pods-VSTS Flow MetricsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VSTS Flow MetricsTests.release.xcconfig"; sourceTree = "<group>"; };
+		B24DAA68D64DDB5083C8F6A9AC604405 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B74B3E41D8325085657DA99F8DCCA665 /* Pods-VSTS Flow Metrics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VSTS Flow Metrics.debug.xcconfig"; sourceTree = "<group>"; };
-		BD267D828AE1E034D07B6E89399D3E89 /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterCrashes.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterCrashes.framework"; sourceTree = "<group>"; };
+		BD74038F952007776C91EBB8B75A30E6 /* AppCenterXCUITestExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppCenterXCUITestExtensions-prefix.pch"; sourceTree = "<group>"; };
 		C11C5BB9A8BC3D3F8047AC9D372F80B1 /* Pods-VSTS Flow MetricsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VSTS Flow MetricsUITests.modulemap"; sourceTree = "<group>"; };
-		C6DE8FD1A3CAF998941DE9816F53B321 /* Pods_VSTS_Flow_MetricsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VSTS_Flow_MetricsTests.framework; path = "Pods-VSTS Flow MetricsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28C772E29330245ADF5944BBC8AD1B6 /* AppCenterXCUITestExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AppCenterXCUITestExtensions.framework; path = AppCenterXCUITestExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C906E7C189A951B632FDD767107D2B15 /* ACTLaunch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ACTLaunch.m; path = Sources/ACTLaunch.m; sourceTree = "<group>"; };
+		D2B0B358377DA90971295395C65E8849 /* AppCenterXCUITestExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppCenterXCUITestExtensions-umbrella.h"; sourceTree = "<group>"; };
 		D3049C1517DB95D4A7803A16D2B3608E /* Pods-VSTS Flow Metrics-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VSTS Flow Metrics-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D5DB6017F2DE7E34BFD90C44B8241AE0 /* Pods_VSTS_Flow_Metrics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VSTS_Flow_Metrics.framework; path = "Pods-VSTS Flow Metrics.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7956419E35E1449F2A658D6D9348A64 /* AppCenterXCUITestExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenterXCUITestExtensions.xcconfig; sourceTree = "<group>"; };
+		DAD762FD8911313E4291649AA17C8860 /* AppCenterXCUITestExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AppCenterXCUITestExtensions-dummy.m"; sourceTree = "<group>"; };
 		DB6D299FD7AFBB4557119DFDC710F28F /* Pods-VSTS Flow MetricsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VSTS Flow MetricsTests.modulemap"; sourceTree = "<group>"; };
 		DE6EF7E7F6038DC444956A10ABFD2750 /* Pods-VSTS Flow MetricsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VSTS Flow MetricsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EB6F12BFEFD5E46E72D595CB29E42A74 /* Pods-VSTS Flow MetricsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VSTS Flow MetricsUITests-dummy.m"; sourceTree = "<group>"; };
 		EF57231FFDE95C90A56F049CE2B48856 /* Pods-VSTS Flow MetricsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VSTS Flow MetricsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F85E1133D1BBDB3B52A94587BB5935A9 /* Pods-VSTS Flow MetricsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VSTS Flow MetricsUITests-resources.sh"; sourceTree = "<group>"; };
+		F99A0861C4B8F600D1F2A046B91A7129 /* ACTLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACTLabel.h; path = Sources/ACTLabel.h; sourceTree = "<group>"; };
+		FBA80F1B3FEA4D5A190B29EA91F7518C /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterAnalytics.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework"; sourceTree = "<group>"; };
 		FF0F00C9F2A78E74059A4DA3F37F0EC6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,11 +102,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B30F35B1C1FC4A7F6311FF733C1B1EB4 /* Frameworks */ = {
+		8B1C45F3FFDF6976FC9D8A7CE7B22E10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10EBC088FF3A4C3EB97DD92195EDDCFB /* Foundation.framework in Frameworks */,
+				2DF7B1E7B58E5EE104445D6F9DB17361 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B44CE2EF9B1BF902951EA4200F67F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB9C82D3C81F16A1E98491C7E9701EF /* Foundation.framework in Frameworks */,
+				C5033D454345E24E760F2C9BC860C9AF /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,41 +130,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CE63A0D2D23DDE06FF3AB25F1E6172D /* Products */ = {
+		12823527181C5B2B6314246E8DC7872F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D5DB6017F2DE7E34BFD90C44B8241AE0 /* Pods_VSTS_Flow_Metrics.framework */,
-				C6DE8FD1A3CAF998941DE9816F53B321 /* Pods_VSTS_Flow_MetricsTests.framework */,
-				162DC0555996996E75AD9FEA3B66C7EE /* Pods_VSTS_Flow_MetricsUITests.framework */,
+				1EA82F9D9A5078085775ED8F1C0964C2 /* AppCenterCrashes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BE18BC8CE813078FC37941F91A30A71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C28C772E29330245ADF5944BBC8AD1B6 /* AppCenterXCUITestExtensions.framework */,
+				149E591F6A2723A0061A4A06AC8D5DAB /* Pods_VSTS_Flow_Metrics.framework */,
+				2DD13EAC73995118F705963078C84E55 /* Pods_VSTS_Flow_MetricsTests.framework */,
+				4FDBFA6B27B39AE277F36F932B28D4B4 /* Pods_VSTS_Flow_MetricsUITests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0F08D6AAC5F3212BEF9AE67BA27BB985 /* Pods */ = {
+		253CDCD2B26DD905CD6B4503815807D1 /* AppCenter */ = {
 			isa = PBXGroup;
 			children = (
-				26382BECC33D3A0DB32AEEFB179E5805 /* AppCenter */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		26382BECC33D3A0DB32AEEFB179E5805 /* AppCenter */ = {
-			isa = PBXGroup;
-			children = (
-				532FCA275C043189A13FDDD5A9BDE415 /* Analytics */,
-				9EE13F7E6DB656EA069185A561AFA2DE /* Core */,
-				7887D30DE6098B8B49964BA5EDB1C9D5 /* Crashes */,
+				B454AE43CB096E829DE655CC6A41672B /* Analytics */,
+				31C396BFB8E6E94B83ED57EDFEC2BCE0 /* Core */,
+				92D8026AE9D028F0203838501FC6DE14 /* Crashes */,
 			);
 			name = AppCenter;
 			path = AppCenter;
 			sourceTree = "<group>";
 		};
-		532FCA275C043189A13FDDD5A9BDE415 /* Analytics */ = {
+		31C396BFB8E6E94B83ED57EDFEC2BCE0 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				A4258E8EA78F9E8E72A5B6E20E8F43D6 /* Frameworks */,
+				979DA92FC70847E64549FD052E3413A3 /* Frameworks */,
 			);
-			name = Analytics;
+			name = Core;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BE34EE7067F7CC8A54539A282682749 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4953746672151A7EC84C29FF53FCD806 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE3BB4EA55D29C6BED76DFB97C79EE53 /* AppCenterXCUITestExtensions.modulemap */,
+				D7956419E35E1449F2A658D6D9348A64 /* AppCenterXCUITestExtensions.xcconfig */,
+				DAD762FD8911313E4291649AA17C8860 /* AppCenterXCUITestExtensions-dummy.m */,
+				BD74038F952007776C91EBB8B75A30E6 /* AppCenterXCUITestExtensions-prefix.pch */,
+				D2B0B358377DA90971295395C65E8849 /* AppCenterXCUITestExtensions-umbrella.h */,
+				B24DAA68D64DDB5083C8F6A9AC604405 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppCenterXCUITestExtensions";
 			sourceTree = "<group>";
 		};
 		56715ACD78A040C305B971DCA2EE4820 /* Pods-VSTS Flow MetricsUITests */ = {
@@ -142,29 +208,22 @@
 			path = "Target Support Files/Pods-VSTS Flow MetricsUITests";
 			sourceTree = "<group>";
 		};
-		66122652B1024E946ECEA52DFABA11A7 /* Frameworks */ = {
+		7BE34EE7067F7CC8A54539A282682749 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				BD267D828AE1E034D07B6E89399D3E89 /* AppCenterCrashes.framework */,
+				E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */,
+				3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7887D30DE6098B8B49964BA5EDB1C9D5 /* Crashes */ = {
-			isa = PBXGroup;
-			children = (
-				66122652B1024E946ECEA52DFABA11A7 /* Frameworks */,
-			);
-			name = Crashes;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0F08D6AAC5F3212BEF9AE67BA27BB985 /* Pods */,
-				0CE63A0D2D23DDE06FF3AB25F1E6172D /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				E580D6C5D6B7DEF8374C3E1FE971D386 /* Pods */,
+				1BE18BC8CE813078FC37941F91A30A71 /* Products */,
 				AE15AA2E5A0243FDFF8D85D6B9DB3BB0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -187,6 +246,14 @@
 			path = "Target Support Files/Pods-VSTS Flow MetricsTests";
 			sourceTree = "<group>";
 		};
+		92D8026AE9D028F0203838501FC6DE14 /* Crashes */ = {
+			isa = PBXGroup;
+			children = (
+				12823527181C5B2B6314246E8DC7872F /* Frameworks */,
+			);
+			name = Crashes;
+			sourceTree = "<group>";
+		};
 		93D652F8DE7720DDA3E39858206322DC /* Pods-VSTS Flow Metrics */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,18 +272,18 @@
 			path = "Target Support Files/Pods-VSTS Flow Metrics";
 			sourceTree = "<group>";
 		};
-		9EE13F7E6DB656EA069185A561AFA2DE /* Core */ = {
+		979DA92FC70847E64549FD052E3413A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E39FB8A4CA783BA2FB45AFE8CCE436C4 /* Frameworks */,
+				26FFD58B01F3EFA7AE5CBD59C73A95A3 /* AppCenter.framework */,
 			);
-			name = Core;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A4258E8EA78F9E8E72A5B6E20E8F43D6 /* Frameworks */ = {
+		A85185D51E734C6341D17888894CEB9E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5351CBD2DE9358535B624F45830298EA /* AppCenterAnalytics.framework */,
+				FBA80F1B3FEA4D5A190B29EA91F7518C /* AppCenterAnalytics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -231,28 +298,36 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		B454AE43CB096E829DE655CC6A41672B /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				A85185D51E734C6341D17888894CEB9E /* Frameworks */,
 			);
-			name = Frameworks;
+			name = Analytics;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		CC45FBABC60550AC9A1F48E5CA0D2840 /* AppCenterXCUITestExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				F99A0861C4B8F600D1F2A046B91A7129 /* ACTLabel.h */,
+				73BFC19A7C8C79A17D0BF4BD0A39AC77 /* ACTLabel.m */,
+				912E11EE3820758A6980F8E3B17BF287 /* ACTLaunch.h */,
+				C906E7C189A951B632FDD767107D2B15 /* ACTLaunch.m */,
+				54D8EEF83C293D38AB35B1A5131DCF23 /* AppCenterXCUITestExtensions.h */,
+				8B86252F04B00A5740B4512BC753D299 /* AppCenterXCUITestExtensions-Bridging-Header.h */,
+				4953746672151A7EC84C29FF53FCD806 /* Support Files */,
 			);
-			name = iOS;
+			name = AppCenterXCUITestExtensions;
+			path = AppCenterXCUITestExtensions;
 			sourceTree = "<group>";
 		};
-		E39FB8A4CA783BA2FB45AFE8CCE436C4 /* Frameworks */ = {
+		E580D6C5D6B7DEF8374C3E1FE971D386 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				275DEAAB07AB38756C25FF9F36046103 /* AppCenter.framework */,
+				253CDCD2B26DD905CD6B4503815807D1 /* AppCenter */,
+				CC45FBABC60550AC9A1F48E5CA0D2840 /* AppCenterXCUITestExtensions */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,17 +349,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A5628CF5AABA8EAC651EB98D10BE9AC /* Headers */ = {
+		509C28907E8B401B2651D0F05C790716 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4BAF535E2C42A335D8791FDA8C8DA55 /* Pods-VSTS Flow MetricsUITests-umbrella.h in Headers */,
+				8897C9B8BC1D52A2E54285CA82EB0CDF /* Pods-VSTS Flow MetricsUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF477EE3FFAD41CCBDA1C60080B827C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA610C6E7D7D9C653ABD89793D21009 /* ACTLabel.h in Headers */,
+				82799CDE196D8F0B99221EC15012D547 /* ACTLaunch.h in Headers */,
+				981806B1DF9E05AE968A99D4FD8DE80E /* AppCenterXCUITestExtensions-Bridging-Header.h in Headers */,
+				71D6E233570F4B0C9516032965F42089 /* AppCenterXCUITestExtensions-umbrella.h in Headers */,
+				3368F4AFCA4CB510C3A4D61E21127FF7 /* AppCenterXCUITestExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0E17F888069C9370A40E13EB274EC7C9 /* Pods-VSTS Flow MetricsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15B938E647706171B7B6E27BC6DF7684 /* Build configuration list for PBXNativeTarget "Pods-VSTS Flow MetricsUITests" */;
+			buildPhases = (
+				560CC5FDD6272FA78D29DB06434CF87E /* Sources */,
+				8B1C45F3FFDF6976FC9D8A7CE7B22E10 /* Frameworks */,
+				509C28907E8B401B2651D0F05C790716 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFE5D05DEFB3C0AFE381D407BD68B4A7 /* PBXTargetDependency */,
+			);
+			name = "Pods-VSTS Flow MetricsUITests";
+			productName = "Pods-VSTS Flow MetricsUITests";
+			productReference = 4FDBFA6B27B39AE277F36F932B28D4B4 /* Pods_VSTS_Flow_MetricsUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		1C1330D6C1DBFAFCA188B09CE6E22A90 /* Pods-VSTS Flow Metrics */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25DA152381665BBE6D052325A8633A39 /* Build configuration list for PBXNativeTarget "Pods-VSTS Flow Metrics" */;
@@ -299,7 +404,7 @@
 			);
 			name = "Pods-VSTS Flow Metrics";
 			productName = "Pods-VSTS Flow Metrics";
-			productReference = D5DB6017F2DE7E34BFD90C44B8241AE0 /* Pods_VSTS_Flow_Metrics.framework */;
+			productReference = 149E591F6A2723A0061A4A06AC8D5DAB /* Pods_VSTS_Flow_Metrics.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3D6110C4054F7F0A2291D4EEEBB82FE7 /* Pods-VSTS Flow MetricsTests */ = {
@@ -316,24 +421,24 @@
 			);
 			name = "Pods-VSTS Flow MetricsTests";
 			productName = "Pods-VSTS Flow MetricsTests";
-			productReference = C6DE8FD1A3CAF998941DE9816F53B321 /* Pods_VSTS_Flow_MetricsTests.framework */;
+			productReference = 2DD13EAC73995118F705963078C84E55 /* Pods_VSTS_Flow_MetricsTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FE1254805CC3DDF79F61DE9503C54A1A /* Pods-VSTS Flow MetricsUITests */ = {
+		D787537662977C07F19B6A1A6B356BBC /* AppCenterXCUITestExtensions */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE121B8FC71C31B7F46789AB6C21729B /* Build configuration list for PBXNativeTarget "Pods-VSTS Flow MetricsUITests" */;
+			buildConfigurationList = FE773FEC46EAE11A674677BDD62E0703 /* Build configuration list for PBXNativeTarget "AppCenterXCUITestExtensions" */;
 			buildPhases = (
-				EF5749C811B47AA77DD81B8B769223D0 /* Sources */,
-				B30F35B1C1FC4A7F6311FF733C1B1EB4 /* Frameworks */,
-				2A5628CF5AABA8EAC651EB98D10BE9AC /* Headers */,
+				C288ADC577DFCD61C58C16E99615ED79 /* Sources */,
+				98B44CE2EF9B1BF902951EA4200F67F8 /* Frameworks */,
+				EDF477EE3FFAD41CCBDA1C60080B827C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-VSTS Flow MetricsUITests";
-			productName = "Pods-VSTS Flow MetricsUITests";
-			productReference = 162DC0555996996E75AD9FEA3B66C7EE /* Pods_VSTS_Flow_MetricsUITests.framework */;
+			name = AppCenterXCUITestExtensions;
+			productName = AppCenterXCUITestExtensions;
+			productReference = C28C772E29330245ADF5944BBC8AD1B6 /* AppCenterXCUITestExtensions.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -353,13 +458,14 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0CE63A0D2D23DDE06FF3AB25F1E6172D /* Products */;
+			productRefGroup = 1BE18BC8CE813078FC37941F91A30A71 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				D787537662977C07F19B6A1A6B356BBC /* AppCenterXCUITestExtensions */,
 				1C1330D6C1DBFAFCA188B09CE6E22A90 /* Pods-VSTS Flow Metrics */,
 				3D6110C4054F7F0A2291D4EEEBB82FE7 /* Pods-VSTS Flow MetricsTests */,
-				FE1254805CC3DDF79F61DE9503C54A1A /* Pods-VSTS Flow MetricsUITests */,
+				0E17F888069C9370A40E13EB274EC7C9 /* Pods-VSTS Flow MetricsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -373,6 +479,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		560CC5FDD6272FA78D29DB06434CF87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088D0D3E69E8028649625DB9E31417DF /* Pods-VSTS Flow MetricsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C288ADC577DFCD61C58C16E99615ED79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53842B4221FFCC8934D4CD7FED73569 /* ACTLabel.m in Sources */,
+				8F79BD12FC96C879483A6D385EAAA906 /* ACTLaunch.m in Sources */,
+				3145E3848BBCB4387124D5C48DD40487 /* AppCenterXCUITestExtensions-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EF36356D51F71DBD95E7E7F957C24075 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,15 +505,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF5749C811B47AA77DD81B8B769223D0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3FC29C00FE792B3F13709746D33873DA /* Pods-VSTS Flow MetricsUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFE5D05DEFB3C0AFE381D407BD68B4A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenterXCUITestExtensions;
+			target = D787537662977C07F19B6A1A6B356BBC /* AppCenterXCUITestExtensions */;
+			targetProxy = 6E5A05852F8B15A8E5220FDDE6F729B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1A2F39F48999175BD57CAD480BDFCE72 /* Debug */ = {
@@ -424,7 +549,7 @@
 			};
 			name = Debug;
 		};
-		2C4D922F07D04186A3D6CA62EB880A40 /* Release */ = {
+		2DD9F763B5E7B35ACF0F9BA8CCBCC986 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7E6ACA18C8C7716861E98C0A221E7EA3 /* Pods-VSTS Flow MetricsUITests.release.xcconfig */;
 			buildSettings = {
@@ -488,6 +613,97 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		3E835F2D934F8653DAB2E3B3A0B23420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7956419E35E1449F2A658D6D9348A64 /* AppCenterXCUITestExtensions.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AppCenterXCUITestExtensions/AppCenterXCUITestExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AppCenterXCUITestExtensions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AppCenterXCUITestExtensions/AppCenterXCUITestExtensions.modulemap";
+				PRODUCT_NAME = AppCenterXCUITestExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5476ABF01153ED487AE043DEABC83F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF57231FFDE95C90A56F049CE2B48856 /* Pods-VSTS Flow MetricsUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VSTS Flow MetricsUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VSTS Flow MetricsUITests/Pods-VSTS Flow MetricsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VSTS_Flow_MetricsUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5A193F833F1C307373897A2565412DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7956419E35E1449F2A658D6D9348A64 /* AppCenterXCUITestExtensions.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AppCenterXCUITestExtensions/AppCenterXCUITestExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AppCenterXCUITestExtensions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AppCenterXCUITestExtensions/AppCenterXCUITestExtensions.modulemap";
+				PRODUCT_NAME = AppCenterXCUITestExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		5BD7F7E59E5E6B9E85A16D64D7E561CF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -669,38 +885,6 @@
 			};
 			name = Release;
 		};
-		BFBE2293BCC7196711280A4C7A2D5208 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF57231FFDE95C90A56F049CE2B48856 /* Pods-VSTS Flow MetricsUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VSTS Flow MetricsUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VSTS Flow MetricsUITests/Pods-VSTS Flow MetricsUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_VSTS_Flow_MetricsUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -709,6 +893,15 @@
 			buildConfigurations = (
 				3DB0125BFB992B7134ABCB9764B495F9 /* Debug */,
 				B6692F7486BD2855C76D0F771BCD0BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15B938E647706171B7B6E27BC6DF7684 /* Build configuration list for PBXNativeTarget "Pods-VSTS Flow MetricsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5476ABF01153ED487AE043DEABC83F54 /* Debug */,
+				2DD9F763B5E7B35ACF0F9BA8CCBCC986 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -731,11 +924,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE121B8FC71C31B7F46789AB6C21729B /* Build configuration list for PBXNativeTarget "Pods-VSTS Flow MetricsUITests" */ = {
+		FE773FEC46EAE11A674677BDD62E0703 /* Build configuration list for PBXNativeTarget "AppCenterXCUITestExtensions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFBE2293BCC7196711280A4C7A2D5208 /* Debug */,
-				2C4D922F07D04186A3D6CA62EB880A40 /* Release */,
+				3E835F2D934F8653DAB2E3B3A0B23420 /* Debug */,
+				5A193F833F1C307373897A2565412DF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

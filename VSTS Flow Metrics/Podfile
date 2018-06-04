@@ -15,7 +15,7 @@ target 'VSTS Flow Metrics' do
 
   target 'VSTS Flow MetricsUITests' do
     inherit! :search_paths
-    # Pods for testing
+    pod 'AppCenterXCUITestExtensions'
   end
 
 end

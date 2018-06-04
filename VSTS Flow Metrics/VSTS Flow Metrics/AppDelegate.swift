@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             MSAppCenter.start(appSecret, withServices:[
                 MSAnalytics.self,
                 MSCrashes.self
+                
             ])
         } else {
             print("ERROR: unable to find 'app_secret.txt' in your bundle.")

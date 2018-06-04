@@ -7,13 +7,16 @@ PODS:
   - AppCenter/Core (1.1.0)
   - AppCenter/Crashes (1.1.0):
     - AppCenter/Core
+  - AppCenterXCUITestExtensions (1.0.0)
 
 DEPENDENCIES:
   - AppCenter
+  - AppCenterXCUITestExtensions
 
 SPEC CHECKSUMS:
   AppCenter: 97c88c10f83719de514aa7f186766f289012f074
+  AppCenterXCUITestExtensions: 8825ed941664fa21d6740a5ed6928a84c06623ac
 
-PODFILE CHECKSUM: 2aa43b90aac739f5b6b18e53c7356225eca1dd43
+PODFILE CHECKSUM: 15774ba68ae8669c0c8225f1d4c78e3f4db32cef
 
 COCOAPODS: 1.2.1
